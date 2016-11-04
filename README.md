@@ -1,6 +1,7 @@
 # Bootstrap modal confirmation
 
 h3. Contoh butang 
+<pre>
 <button data-href="<letakkan url anda disini>"
         data-toggle="modal" data-target="#confirm"
         data-label="Adakah anda pasti untuk kemaskini borang permohonan?"
@@ -8,6 +9,7 @@ h3. Contoh butang
         class="btn btn-primary btn-sm" title="Kemaskini">
     <i class="fa fa-pencil"></i> Kemaskini
 </button>
+</pre>
 
 <div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
